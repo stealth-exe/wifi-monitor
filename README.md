@@ -1,4 +1,4 @@
-# wifi-moniotor
+# wifi-monitor
 
 A lightweight tool that can be used to test the integrity of any network connection. It repeatedly opens a TCP connection to a server of your choice, measures how long it takes, and plots the result in real time. Specifically, 
 
