@@ -2,6 +2,11 @@
 
 A lightweight tool that can be used to test the integrity of any network connection. It repeatedly opens a TCP connection to a server of your choice, measures how long it takes, and plots the result in real time. Specifically, 
 
+## Demo
+<img width="720" height="450" alt="output" src="https://github.com/user-attachments/assets/ecf1a796-6553-4e5f-83f6-e52a98fab5aa" />
+
+
+
 ## How it works
 
 - A background thread measures TCP connect time (not ICMP ping, so no admin rights are needed) and keeps the last 120 seconds of samples.
